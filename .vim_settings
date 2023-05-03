@@ -1,5 +1,3 @@
-autocmd FileType python set colorcolumn=0
-
 " enable syntax highlighting
 syntax enable
 
@@ -24,5 +22,7 @@ set cursorline
 " show the matching part of the pair for [] {} and ()
 set showmatch
 
-" enable all Python syntax highlighting features
-let python_highlight_all = 1
+set clipboard=unnamed
+
+" make esc to normal mode faster, but can't use esc in insert mode keybinds
+set esckeys

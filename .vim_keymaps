@@ -9,19 +9,9 @@ map <Up> <Nop>
 map <Down> <Nop>
 map <Right> <Nop>
 map <Left> <Nop>
-inoremap fj <Esc>l
-inoremap FJ <Esc>l
-vnoremap fj <Esc>l
-vnoremap FL <Esc>l
-nnoremap ` :NERDTreeToggle<CR>
-nnoremap <leader>h :wincmd h<CR>
-nnoremap <leader>l :wincmd l<CR>
-nnoremap <leader>j :wincmd j<CR>
-nnoremap <leader>k :wincmd k<CR>
-nnoremap <leader>t <C-w>T 
-nnoremap <leader>b <C-O>
 ca tn tabnew
 ca th tabp
 ca tl tabn
 ca v rightb vsp
 nnoremap <leader>q ebi'<Esc>ea'<Esc>
+vnoremap p "_dP
